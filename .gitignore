@@ -1,0 +1,68 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+.vscode/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+*.dll
+*.exe
+*.pdb
+*.log
+
+# Exceptions - Keep required DLLs
+!Tolk.dll
+!nvdaControllerClient32.dll
+!nvdaControllerClient64.dll
+
+# Game files
+Assembly-CSharp.dll
+UnityEngine*.dll
+FMODUnity.dll
+InControl.dll
+
+# Decompiled game code (reference only)
+*.cs
+!AccessibilityMod/**/*.cs
+
+# Release packages
+*.zip
+*.tar.gz
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~*
