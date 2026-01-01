@@ -1,7 +1,7 @@
 # A Space for the Unbound - Accessibility Mod
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility/releases)
+[![Version](https://img.shields.io/badge/version-1.2.0-blue.svg)](https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility/releases)
 
 This mod makes "A Space for the Unbound" fully accessible for blind and visually impaired players through comprehensive audio cues and screen reader support.
 
@@ -235,6 +235,10 @@ Future improvements being considered:
 - Multi-language screen reader support
 
 ## 📜 Changelog
+
+### v1.2.0 (2025-01-01)
+- Updated user documentation
+- Refined installation guide
 
 ### v1.1.0 (2025-01-01)
 - Updated documentation
