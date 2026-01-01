@@ -1,7 +1,7 @@
 # A Space for the Unbound - Accessibility Mod
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility/releases)
 
 This mod makes "A Space for the Unbound" fully accessible for blind and visually impaired players through comprehensive audio cues and screen reader support.
 
@@ -116,7 +116,6 @@ All audio cues use 3D positioning - sounds play from the left or right speaker b
 - **MelonLoader Mod** - Uses Harmony for runtime patching
 - **FMOD Integration** - Leverages game's audio engine for spatial sound
 - **Tolk Library** - Universal screen reader interface
-- **Embedded Resources** - All audio files packed in DLL (no external files needed)
 
 ### Audio System
 - **Spatial Positioning** - Pan values from -1 (left) to +1 (right)
@@ -179,8 +178,8 @@ All audio cues use 3D positioning - sounds play from the left or right speaker b
 ```
 A-Space-For-The-Unbound-accessibility/
 ├── AccessibilityMod/               # Main mod source code
-│   ├── AudioFiles/                 # Embedded audio resources (*.wav)
-│   ├── AudioResourceExtractor.cs   # Extracts embedded audio
+│   ├── AudioFiles/                 # Audio resources (*.wav)
+│   ├── AudioResourceExtractor.cs   # Extracts audio resources
 │   ├── StealthAudioManager.cs      # Stealth section audio
 │   ├── MinigameAudioManager.cs     # Minigame audio
 │   ├── InteractableAudioManager.cs # Object interaction audio
@@ -202,7 +201,6 @@ A-Space-For-The-Unbound-accessibility/
 - **Harmony Patches** - Runtime method interception for game modification
 - **FMOD Audio** - Spatial audio using game's built-in engine
 - **Tolk Integration** - Cross-platform screen reader support
-- **Embedded Resources** - Audio files compiled into DLL
 
 ## 📝 License
 
@@ -238,6 +236,10 @@ Future improvements being considered:
 
 ## 📜 Changelog
 
+### v1.1.0 (2025-01-01)
+- Updated documentation
+- Improved stability
+
 ### v1.0.0 (2025-01-01)
 - Initial release
 - Full screen reader support
@@ -245,4 +247,3 @@ Future improvements being considered:
 - Accessible stealth sections
 - Accessible minigames (fighting, timing bar, throwing, falling debris, comic books)
 - Puzzle assistance
-- Embedded audio resources
